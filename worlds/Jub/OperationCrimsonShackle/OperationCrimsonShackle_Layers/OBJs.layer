@@ -1,0 +1,196 @@
+$grp PolylineShapeEntity {
+ {
+  coords 2280.114 19.567 885.751
+  Points {
+   ShapePoint "{69316775FDF5420B}" {
+    Position -113.232 -14.843 -69.675
+   }
+   ShapePoint "{69541AF8F433A2F9}" {
+    Position -72.071 -14.408 -79.324
+   }
+   ShapePoint "{69541AF8F564ADFE}" {
+    Position 154.668 -24.534 -132.691
+   }
+   ShapePoint "{69541AF8F0DEF2C8}" {
+    Position 215.354 -22.273 -39.27
+   }
+   ShapePoint "{69541AF8F0566F52}" {
+    Position 95.645 -15.149 19.328
+   }
+   ShapePoint "{69541AF8F02CECFC}" {
+    Position 55.76 -9.353 93.214
+   }
+   ShapePoint "{69541AF8F1B95873}" {
+    Position 7.807 -14.3 129.601
+   }
+   ShapePoint "{69316775FC65E567}" {
+    Position -48.846 -16.482 112.045
+   }
+  }
+  IsClosed 1
+  {
+   TILW_FactionTriggerEntity RU_CAP_1 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 4907.896 142.734 8372.788
+    m_queryRadius 500
+    m_captureTime 60
+    m_statusMessages {
+     "The US has taken control of %2."
+     "The US is taking control of %2."
+     "The US is no longer taking control of %2."
+     "The US has lost control of %2."
+     "The US is losing control of %2."
+     "The USis no longer losing control of %2."
+    }
+    m_locationName "Here"
+    m_flagName "RU_CAP"
+    m_ownerFactionKey "RHS_USAF"
+    m_ratioThreshold 0.9
+   }
+   PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+    components {
+     TILW_MapShapeComponent "{6508F5526836BC09}" {
+      m_drawArea 0
+      m_invert 1
+      m_drawLine 1
+     }
+    }
+    coords 3058.203 144.996 9117.797
+    Points {
+     ShapePoint "{69316752D15D2EE1}" {
+      Position -1089.555 -142.133 -9518.179
+     }
+     ShapePoint "{69316752D1E2D6E5}" {
+      Position -964.835 -149.677 -9601.695
+     }
+     ShapePoint "{69316752D0E5F899}" {
+      Position -946.814 -152.46 -9922.883
+     }
+     ShapePoint "{69316752D3D587E5}" {
+      Position -900.309 -156.977 -10116.629
+     }
+     ShapePoint "{69316752D243FB89}" {
+      Position -1040.452 -152.623 -10150.825
+     }
+     ShapePoint "{69316752D57539CE}" {
+      Position -1450.604 -147.197 -10111.965
+     }
+     ShapePoint "{69316752D58684F5}" {
+      Position -1402.472 -149.032 -10016.808
+     }
+     ShapePoint "{69316752D49868D7}" {
+      Position -1356.894 -147.015 -9757.369
+     }
+     ShapePoint "{69316752D6FC2224}" {
+      Position -1302.632 -146.338 -9580.073
+     }
+    }
+    LineColor 0.0034 0.0034 0.0034 1
+   }
+  }
+ }
+ {
+  coords 2051.794 10.002 948.085
+  Points {
+   ShapePoint "{69541AF91CAEB1DD}" {
+    Position 63.29 -98.474 504.429
+   }
+   ShapePoint "{69316775E46CBB46}" {
+    Position 176.267 -8.447 85.187
+   }
+   ShapePoint "{69541AF91EFEE55E}" {
+    Position 149.816 -3.633 -14.98
+   }
+   ShapePoint "{69541AF905767B8C}" {
+    Position 113.162 -2.992 -119.114
+   }
+   ShapePoint "{69316775E489FDCD}" {
+    Position 4.08 -2.001 -125.843
+   }
+   ShapePoint "{69316775ECA08D5E}" {
+    Position -96.285 4.279 28.429
+   }
+  }
+  IsClosed 1
+  {
+   TILW_FactionTriggerEntity RU_CAP_2 : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+    coords 3094.271 147.787 9023.111
+    m_queryRadius 500
+    m_captureTime 60
+    m_statusMessages {
+     "The US has taken control of %2."
+     "The US is taking control of %2."
+     "The US is no longer taking control of %2."
+     "The US has lost control of %2."
+     "The USis losing control of %2."
+     "The US is no longer losing control of %2."
+    }
+    m_locationName "Here"
+    m_flagName "RU_CAP_2"
+    m_ownerFactionKey "RHS_USAF"
+    m_ratioThreshold 0.9
+   }
+   PolylineShapeEntity : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+    components {
+     TILW_MapShapeComponent "{6508F5526836BC09}" {
+      m_drawArea 0
+      m_invert 1
+      m_drawLine 1
+     }
+    }
+    coords 4872.28 144.718 8373.296
+    Points {
+     ShapePoint "{69316752CC1E5203}" {
+      Position -6691.158 -143.062 -7929.556
+     }
+     ShapePoint "{69316752CF2A7E17}" {
+      Position -7043.922 -139.832 -7738.743
+     }
+     ShapePoint "{69316752CE09F32C}" {
+      Position -7025.989 -141.237 -7513.811
+     }
+     ShapePoint "{69316752CEC94841}" {
+      Position -6865.762 -137.708 -7323.765
+     }
+     ShapePoint "{69316752B1A47A83}" {
+      Position -6678.177 -139.29 -7317.269
+     }
+     ShapePoint "{69316752B02BCD0F}" {
+      Position -6530.782 -142.263 -7371.737
+     }
+     ShapePoint "{69316752B0C0142B}" {
+      Position -6524.935 -140.662 -7789.064
+     }
+    }
+    LineColor 0 0 0 1
+   }
+  }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ obj1 {
+  coords 2052.23 11.327 964.153
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 150
+  m_sDescription "Obj 1"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_bShowForAnyFaction 1
+ }
+ obj2 {
+  coords 2287.636 6.126 906.65
+  angles 0 90 0
+  m_sImageSetGlow ""
+  m_MarkerColor 0 0 0 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 150
+  m_sDescription "Obj 2"
+  m_aVisibleForFactions {
+   "RHS_USAF"
+  }
+  m_bShowForAnyFaction 1
+ }
+}
