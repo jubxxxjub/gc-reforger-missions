@@ -1,0 +1,70 @@
+$grp SCR_AIGroup : "{6AD2B0B573FFCB7A}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Woodland/Group_USMC_2025_RiflePHQ.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+   }
+  }
+  coords 8022.665 1.097 549.899
+  angles 0 -99.908 0
+  m_bSnapToTerrain 0
+  m_bPlayable 1
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Line"
+    "Projection distance" 4.1
+   }
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
+    m_iCompanyCallsign 5
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8033.428 18.099 547.956
+  angles -0.728 -13.065 0.719
+  m_aUnitPrefabSlots {
+   "{4F478BEF35E18EFC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Pilot.et"
+   "{4F478BEF35E18EFC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Pilot.et"
+   "{4F478BEF35E18EFC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Pilot.et"
+   "{4F478BEF35E18EFC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Pilot.et"
+   "{9DD6A98D395D8897}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_AirCrew.et"
+   "{9DD6A98D395D8897}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_AirCrew.et"
+  }
+  m_bSnapToTerrain 0
+  m_bPlayable 1
+  m_sCustomNameSet "HMLA Det"
+  m_bSetPlayable 1
+ }
+}
+$grp SCR_AIGroup : "{D1D017F5F4B61351}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Woodland/Group_USMC_2025_RifleSquad.et" {
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+    "Projection distance" 5.6
+   }
+  }
+  coords 8027.682 1.097 542.766
+  angles 0 -101.039 0
+  m_bSnapToTerrain 0
+  m_bPlayable 1
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+    "Projection distance" 1
+   }
+  }
+  coords 8031.966 1.097 544.868
+  angles 0 -99.811 0
+  m_bSnapToTerrain 0
+  m_bPlayable 1
+  m_bSetPlayable 1
+ }
+}

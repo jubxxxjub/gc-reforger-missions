@@ -1,0 +1,70 @@
+$grp ParticleEffectEntity {
+ {
+  coords 2559.76 25.649 5578.021
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 2565.352 25.649 5572.031
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4340.181 58.962 3177.413
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4356.225 62.151 3133.52
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 4365.621 60.452 3176.928
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 5307.065 72.33 3387.199
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 5313.07 72.233 3343.559
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 5335.928 72.33 3352.112
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 5445.665 66.465 3335.124
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 5427.021 67.461 3398.194
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 2096.121 122.421 7388.619
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 2257.648 128.559 7342.349
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 2204.785 130.145 7385.046
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 5056.969 698.781 6327.125
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+ {
+  coords 5063.304 693.818 6296.218
+  EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
+ }
+}
+$grp Vehicle : "{75C2E60ECD8B44F7}Prefabs/Vehicles/Wheeled/BTR70/GC_BTR70_RWS_AP23.et" {
+ GC_BTR70_RWS_AP1 {
+  coords 2046.779 129.981 7289.208
+ }
+ GC_BTR70_RWS_AP2 {
+  coords 8037.273 18.087 559.67
+ }
+}

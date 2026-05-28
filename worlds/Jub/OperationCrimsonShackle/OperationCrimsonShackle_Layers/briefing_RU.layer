@@ -11,11 +11,10 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Situation_R {
   coords 1599.148 69.429 6984.259
   m_sTitle "I. Situation"
-  m_sTextData "We heard the sound of American helicopters and child scouts advised us that their tanks are heading this way."\
-  ""\
-  "We mustered the cells and must plan a defense."\
-  ""\
-  ""
+  m_sTextData "After hearing explosions across the island and no response from our outer island teams, we have determined that an attack from American forces is underway."\
+  "Intelligence assesses this to be a Marine Expeditionary Unit conducting amphibious operations — the leading edge of a larger amphibious force. Their objective is almost certainly the airfield. Its loss would strip us of our air defence umbrella and give them a foothold to flow follow-on forces directly into the heart of Kolgujev."\
+  "Our Morskaya Pekhota Rossii brigade is sprung to action to defend the airport from seizure. Coastal observation posts are dark; we must assume the enemy has already established a beachhead and is pushing inland. Reinforcements from the mainland are hours away — what holds this airfield is what stands on it now."\
+  "The Motherland is watching. Not one American boot crosses our flight line."
   m_aVisibleForFactions {
    "GC_INSURGENT"
   }

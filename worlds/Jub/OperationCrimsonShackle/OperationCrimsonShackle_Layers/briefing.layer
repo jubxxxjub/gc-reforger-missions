@@ -2,9 +2,11 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Overview {
   coords 1525.183 68.639 6936.969
   m_sTitle "Overview"
-  m_sTextData "The year is 2012, USMC forces in Hemland provence have started Op Jaws to destroy and demoralize Taliban forces prior to passing off combat ops to the ANA."\
+  m_sTextData "No setup, 60 minute TL after setup"\
   ""\
-  "No setup, 60 minute TL after setup"\
+  "Tensions between the Russian Federation and NATO have escalated into open conflict across the northern theatre. Kolgujev, a Russian-held island in the Barents Sea, hosts a strategically vital airfield projecting air power across the region and threatening NATO sea lanes."\
+  "A United States Marine Expeditionary Unit has been tasked with the seizure of the island. Outer defensive positions have fallen in the opening hours of the assault, and the fight has moved inland. The airfield is the decisive objective — its capture or successful defence will determine the outcome of operations in this sector."\
+  "Defending the island is a brigade of Morskaya Pekhota Rossii, dug in around the airfield and prepared to repel the landing force."\
   ""
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
