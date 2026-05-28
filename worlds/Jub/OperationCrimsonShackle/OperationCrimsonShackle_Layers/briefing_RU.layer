@@ -34,13 +34,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  Fr_R {
   coords 1592.659 69.175 6977.795
   m_sTitle "II. Friendly Forces"
-  m_sTextData "Platoon strength Taliban fighters located at our marked SP"\
+  m_sTextData "Company strength VMF marines located in a barraks at our marked SP."\
   ""\
-  "We have x30 respawns and respawn at the RP."\
+  "We have x30 respawns and respawn at the military base to the North."\
   ""\
-  "We have vehicles located at our RP:"\
+  "At the airfield, inside a garage we have x4 BTR-70Ms: x1 with a 30mm, x1 with a 20mm, x2 with KPVTs."\
   ""\
-  "We have x13 motorbikes, x5 VBIEDs, x3 transport landrovers, x1 M2HB m151 jeep, x3 GPMG landrovers, x1 PKM UAZ"
+  "At the military base, in more garages we have x3 BMP2s, x2 GAZ TIGR AGS, x2 GAZ transport, x2 Ural transport."
   m_aVisibleForFactions {
    "GC_INSURGENT"
   }

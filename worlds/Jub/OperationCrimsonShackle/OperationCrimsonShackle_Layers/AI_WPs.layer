@@ -1,0 +1,18 @@
+$grp SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+ Def_1 {
+  coords 3052.075 25.932 4982.401
+ }
+ Def_4 {
+  coords 2711.963 24.663 5661.31
+ }
+ Def_2 {
+  coords 3070.117 24.22 4808.028
+ }
+ Def_3 {
+  coords 2753.988 24.222 5410.726
+ }
+ Def_5 {
+  coords 3182.496 44.248 4934.674
+  angles 4.29 -0.873 -11.515
+ }
+}

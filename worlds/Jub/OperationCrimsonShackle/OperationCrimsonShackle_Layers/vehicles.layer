@@ -1,18 +1,90 @@
-Vehicle GC_UH1Y_Armed_Gunship_APKWS_Sage_M2HB_M1 : "{61EE1C53D197A9CD}Prefabs/Vehicles/Helicopters/UH1Y/GC_UH1Y_Armed_Gunship_APKWS_Sage_M2HB_M134.et" {
- coords 8034.64 18.121 568.196
- angles 0 76.9 0
+$grp Vehicle {
+ GC_UH1Y_Armed_Gunship_APKWS_Sage_M2HB_M1 {
+  coords 8034.64 18.121 568.196
+  angles 0 76.9 0
+ }
+ AH1Z_8AGM_14APKWS1 {
+  coords 8083.544 18.106 580.442
+  angles 0 77.91 0
+ }
+ AH1Z_8AGM_38RKT1 {
+  coords 8016.205 18.118 530.194
+  angles 0 75.727 0
+ }
 }
-Vehicle RHIB_Transport1 : "{90FB4A19890F9E5C}Prefabs/Vehicles/Naval/RHIB/RHIB_Transport.et" {
- coords 8011.408 0 539.174
- angles 0 -101.52 0
+$grp Vehicle : "{00AED68EFBF251BA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_closed_camo1.et" {
+ Ural4320_transport_covered_closed_camo1 {
+  coords 2264.811 126.198 7353.267
+  angles 0 -90.02 0
+ }
+ Ural4320_transport_covered_closed_camo2 {
+  coords 2264.698 126.198 7358.361
+  angles 0 -90.02 0
+ }
 }
-Vehicle AH1Z_8AGM_14APKWS1 : "{C97A86E2CC383F8C}Prefabs/Vehicles/Helicopters/AH-1Z/AH1Z_8AGM_14APKWS.et" {
- coords 8083.544 18.106 580.442
- angles 0 77.91 0
+Vehicle GC_BTR80A_AFRF1 : "{21A567BC1D858352}Prefabs/Vehicles/Wheeled/BTR70/GC_BTR80A_AFRF.et" {
+ coords 2749.458 24.573 5561.063
+ angles 0 89.763 0
 }
-Vehicle AH1Z_8AGM_38RKT1 : "{C97A86E2CC383F8D}Prefabs/Vehicles/Helicopters/AH-1Z/AH1Z_8AGM_38RKT.et" {
- coords 8016.205 18.118 530.194
- angles 0 75.727 0
+Vehicle GAZ_TIGR_v2_Unarmed1 : "{2C9B4D8196812513}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed.et" {
+ coords 2264.382 126.198 7361.736
+ angles 0 -102.01 0
+}
+$grp Vehicle : "{2D199A6BD932D115}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF_RWS_KORD_v2.et" {
+ BTR70_AFRF_RWS_KORD_v2 {
+  coords 2745.839 24.573 5573.769
+  angles 0 86.982 0
+ }
+ BTR70_AFRF_RWS_KORD_v3 {
+  coords 2744.932 24.573 5566.885
+  angles 0 89.713 0
+ }
+}
+Vehicle GAZ_TIGR_v2_Unarmed_Green1 : "{6F4D5B56F4905A62}Prefabs/Vehicles/Wheeled/TIGR/Unarmed/GAZ_TIGR_v2_Unarmed_Green.et" {
+ coords 2257.364 126.198 7367.771
+ angles 0 -95.976 0
+}
+$grp Vehicle : "{90FB4A19890F9E5C}Prefabs/Vehicles/Naval/RHIB/RHIB_Transport.et" {
+ RHIB_Transport1 {
+  coords 8011.408 0 539.174
+  angles 0 -101.52 0
+ }
+ RHIB_Transport3 {
+  coords 7998.368 0 541.205
+  angles 0 -101.52 0
+ }
+ RHIB_Transport2 {
+  coords 7999.285 0 536.703
+  angles 0 -101.52 0
+ }
+}
+$grp Tank : "{A0B9916803BD73A2}IFV/BMP2/BMP2_Olive_GC.et" {
+ BMP2_Olive_GC1 {
+  coords 2264.657 126.198 7346.543
+  angles 0 -91.788 0
+ }
+ BMP2_Olive_GC2 {
+  coords 2257.001 126.198 7346.508
+  angles 0 -91.788 0
+ }
+ BMP2_Olive_GC3 {
+  coords 2256.789 126.198 7353.339
+  angles 0 -91.788 0
+ }
+}
+$grp Vehicle : "{BA4D13CD7E974C76}Prefabs/Vehicles/Wheeled/TIGR/AGS/GAZ_TIGR_v2_AGS17_Green_PAG17.et" {
+ GAZ_TIGR_v2_AGS17_Green_PAG2 {
+  coords 2257.379 126.198 7361.874
+  angles 0 -100.48 0
+ }
+ GAZ_TIGR_v2_AGS17_Green_PAG1 {
+  coords 2257.504 126.198 7358.591
+  angles 0 -82.882 0
+ }
+}
+Vehicle BTR70_AFRF_RWS_20mm_v1 : "{D4088262034E262A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_AFRF_RWS_20mm_v2.et" {
+ coords 2745.926 24.573 5579.828
+ angles 0 89.458 0
 }
 $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
  RHIB_Gunboat1 {
@@ -21,6 +93,14 @@ $grp Vehicle : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
  }
  RHIB_Gunboat2 {
   coords 8009.674 0 546.192
+  angles 0 -97.249 0
+ }
+ RHIB_Gunboat3 {
+  coords 7997.57 0 551.284
+  angles 0 -96.484 0
+ }
+ RHIB_Gunboat4 {
+  coords 7997.523 0 546.221
   angles 0 -97.249 0
  }
 }

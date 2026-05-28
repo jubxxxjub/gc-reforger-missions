@@ -60,11 +60,29 @@ $grp ParticleEffectEntity {
   EffectPath "{42917AAB29152360}Particles/Vehicle/Cinematic_Kolguyev_Fire.ptc"
  }
 }
-$grp Vehicle : "{75C2E60ECD8B44F7}Prefabs/Vehicles/Wheeled/BTR70/GC_BTR70_RWS_AP23.et" {
- GC_BTR70_RWS_AP1 {
-  coords 2046.779 129.981 7289.208
+$grp Vehicle : "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et" {
+ Mi8MT_armed1 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+   }
+  }
+  coords 2639.38 24.219 5468.58
+  angles 0 86.181 0
  }
- GC_BTR70_RWS_AP2 {
-  coords 8037.273 18.087 559.67
+ Mi8MT_armed2 {
+  components {
+   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+    m_bIsLocked 1
+    m_lockPilot 1
+    m_lockTurret 1
+    m_lockCargo 1
+   }
+  }
+  coords 2639.124 24.219 5517.047
+  angles 0 86.181 0
  }
 }

@@ -1,0 +1,286 @@
+$grp StaticModelEntity : "{067520E186A10028}Prefabs/Structures/Military/Fortifications/Trenches/Trench_Prone.et" {
+ {
+  coords 3163.413 43.64 4972.517
+  angles -4.384 -153.573 4.79
+ }
+ {
+  coords 3148.346 41.284 4970.118
+  angles 2.607 -0.448 -4.975
+ }
+}
+$grp Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ {
+  components {
+   TILW_VehicleCrewComponent "{697807609F48F88D}" {
+    m_crewConfig TILW_CrewConfig "{697807609C413746}" {
+     m_crewGroups {
+      TILW_CrewGroup "{697807609D0406DB}" {
+       m_crewStations {
+        TILW_CrewStation "{697807609BEE8263}" {
+         m_characters {
+          "{9ED29A9BECAF6BD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/MSV/Character_AFRF_2025_Rifle.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 2553.025 24.219 5504.187
+ }
+ {
+  components {
+   TILW_VehicleCrewComponent "{697807609F48F88D}" {
+    m_crewConfig TILW_CrewConfig "{697807609C413746}" {
+     m_crewGroups {
+      TILW_CrewGroup "{697807609D0406DB}" {
+       m_crewStations {
+        TILW_CrewStation "{697807609BEE8263}" {
+         m_characters {
+          "{9ED29A9BECAF6BD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/MSV/Character_AFRF_2025_Rifle.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 2639.121 27.728 5616.644
+  angles 0 89.949 0
+ }
+ {
+  components {
+   TILW_VehicleCrewComponent "{697807609F48F88D}" {
+    m_crewConfig TILW_CrewConfig "{697807609C413746}" {
+     m_crewGroups {
+      TILW_CrewGroup "{697807609D0406DB}" {
+       m_crewStations {
+        TILW_CrewStation "{697807609BEE8263}" {
+         m_characters {
+          "{9ED29A9BECAF6BD5}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/MSV/Character_AFRF_2025_Rifle.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 2981.003 24.982 4771.223
+  angles 0 139.488 0
+ }
+}
+SCR_AIGroup : "{3D56369D21B1D656}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_ElementHQ.et" {
+ coords 2697.351 24.729 5667.995
+ m_aStaticWaypoints {
+  "Def_4"
+ }
+}
+$grp SCR_AIGroup : "{4D7C76F20BC61932}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_TeamAT.et" {
+ {
+  coords 3025.592 50.543 4814.425
+  m_aStaticWaypoints {
+   "Def_2"
+  }
+ }
+ {
+  coords 3051.702 38.468 4969.478
+  m_aStaticWaypoints {
+   "Def_1"
+  }
+ }
+}
+$grp Tank : "{726286E1F9570EA1}Prefabs/Vehicles/Tracked/T-72B/T72B_base.et" {
+ T72B_base1 {
+  components {
+   TILW_VehicleCrewComponent "{69780761D8FB7908}" {
+    m_crewConfig TILW_CrewConfig "{69780761D9F89C88}" {
+     m_crewGroups {
+      TILW_CrewGroup "{69780761D91543F7}" {
+       m_crewStations {
+        TILW_CrewStation "{69780761D7F1D71F}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+          "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 3176.786 39.921 4886.938
+  angles -6.678 -177.121 8.505
+ }
+ T72B_base3 {
+  components {
+   TILW_VehicleCrewComponent "{69780761D8FB7908}" {
+    m_crewConfig TILW_CrewConfig "{69780761D9F89C88}" {
+     m_crewGroups {
+      TILW_CrewGroup "{69780761D91543F7}" {
+       m_crewStations {
+        TILW_CrewStation "{69780761D7F1D71F}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+          "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 2402.787 23.273 5580.479
+  angles -6.229 0.769 -0.974
+ }
+ T72B_base2 {
+  components {
+   TILW_VehicleCrewComponent "{69780761D8FB7908}" {
+    m_crewConfig TILW_CrewConfig "{69780761D9F89C88}" {
+     m_crewGroups {
+      TILW_CrewGroup "{69780761D91543F7}" {
+       m_crewStations {
+        TILW_CrewStation "{69780761D7F1D71F}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+          "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 2946.404 26.479 4612.971
+  angles -7.094 -179.501 -3.611
+ }
+}
+$grp SCR_AIGroup : "{8CA48CA1713330DC}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_SquadFull.et" {
+ {
+  coords 3140.497 69.815 4867.274
+  m_aStaticWaypoints {
+   "Def_5"
+  }
+ }
+ {
+  coords 2775.617 24.163 5393.195
+  m_aStaticWaypoints {
+   "Def_3"
+  }
+ }
+ {
+  coords 2778.091 24.219 5460.509
+  m_aStaticWaypoints {
+   "Def_3"
+  }
+ }
+ {
+  coords 2705.443 24.219 5441.585
+  m_aStaticWaypoints {
+   "Def_3"
+  }
+ }
+ {
+  coords 2706.725 24.688 5666.782
+  m_aStaticWaypoints {
+   "Def_4"
+  }
+ }
+ {
+  coords 2766.296 24.656 5674.953
+  m_aStaticWaypoints {
+   "Def_4"
+  }
+ }
+ {
+  coords 2659.248 24.562 5677.786
+  m_aStaticWaypoints {
+   "Def_4"
+  }
+ }
+}
+$grp Turret : "{EE2AED20254CDD0A}Prefabs/Weapons/Tripods/Tripod_6T5_PKP_1p29.et" {
+ {
+  components {
+   TILW_VehicleCrewComponent "{69781344A4262A96}" {
+    m_crewConfig TILW_CrewConfig "{69781344A521CFF9}" {
+     m_crewGroups {
+      TILW_CrewGroup "{69781344A2B30136}" {
+       m_crewStations {
+        TILW_CrewStation "{69781344A0E2CDDA}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{A3112A09DC966360}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/MSV/Character_AFRF_2025_MG.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 3161.979 43.717 4970.01
+  angles 0.224 -150.519 0.127
+ }
+ {
+  components {
+   TILW_VehicleCrewComponent "{69781344A4262A96}" {
+    m_crewConfig TILW_CrewConfig "{69781344A521CFF9}" {
+     m_crewGroups {
+      TILW_CrewGroup "{69781344A2B30136}" {
+       m_crewStations {
+        TILW_CrewStation "{69781344A0E2CDDA}" {
+         m_allowPilot 0
+         m_allowCargo 0
+         m_characters {
+          "{A3112A09DC966360}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/2025/MSV/Character_AFRF_2025_MG.et"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  coords 3148.152 41.722 4973.205
+  angles -0.257 0 0
+ }
+}
+$grp SCR_AIGroup : "{EFD36538A8307CBB}Prefabs/Groups/OPFOR/Russia/2025/Group_AFRF_2025_TeamMG.et" {
+ {
+  coords 3189.792 26.21 4597.066
+  angles 0 111.68 0
+ }
+ {
+  coords 3094.939 24.219 4787.7
+  m_aStaticWaypoints {
+   "Def_2"
+  }
+ }
+}
+$grp StaticModelEntity : "{F461064A1C244E58}Prefabs/Structures/Military/Fortifications/Trenches/VehicleDugout_T72.et" {
+ {
+  coords 3177.021 40.047 4888.686
+  angles -6.021 178.582 8.98
+ }
+ {
+  coords 2402.646 23.505 5578.058
+  angles -6.313 -1.55 -2.5
+ }
+ {
+  coords 2946.544 26.671 4615.386
+  angles -7.206 178.652 -3.381
+ }
+}

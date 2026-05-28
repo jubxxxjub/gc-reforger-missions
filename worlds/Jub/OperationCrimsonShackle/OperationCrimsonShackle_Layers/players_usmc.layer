@@ -1,17 +1,30 @@
 $grp SCR_AIGroup : "{6AD2B0B573FFCB7A}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Woodland/Group_USMC_2025_RiflePHQ.et" {
- {
+ PHQ {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
   }
-  coords 8022.665 1.097 549.899
-  angles 0 -99.908 0
+  coords 8029.179 1.097 545.384
+  angles -19.364 -107.996 1.66
+  m_aUnitPrefabSlots {
+   "{4550FBB2D47127DF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_PL.et"
+   "{10E65D9754A620D1}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_PSG.et"
+   "{01F69D7FC332756C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Corpsman.et"
+   "{01F69D7FC332756C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Corpsman.et"
+   "{A74D917D44C3BD28}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_FO.et"
+   "{1F01EAAC1320705B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_RTO.et"
+   "{8CBFED356393597F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_TL_DMR.et"
+   "{703162D46EC6EB22}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Sniper_AMR.et"
+   "{3694FEB50F05A28C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Sniper_SR25.et"
+   "{B6FA39F9989D92FE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Drone_Hunter.et"
+   "{6190BCD06F40FACE}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Drone_Killer.et"
+  }
   m_bSnapToTerrain 0
   m_bPlayable 1
   m_bSetPlayable 1
  }
- {
+ ACE {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "Line"
@@ -24,7 +37,7 @@ $grp SCR_AIGroup : "{6AD2B0B573FFCB7A}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
     m_iSquadCallsign 1
    }
   }
-  coords 8033.428 18.099 547.956
+  coords 8033.619 18.076 549.386
   angles -0.728 -13.065 0.719
   m_aUnitPrefabSlots {
    "{4F478BEF35E18EFC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_Pilot.et"
@@ -41,28 +54,56 @@ $grp SCR_AIGroup : "{6AD2B0B573FFCB7A}Prefabs/Groups/BLUFOR/US/Marines/2025/Mari
  }
 }
 $grp SCR_AIGroup : "{D1D017F5F4B61351}Prefabs/Groups/BLUFOR/US/Marines/2025/Marine Rifles/Woodland/Group_USMC_2025_RifleSquad.et" {
- {
+ SQ1 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
     "Projection distance" 5.6
    }
   }
-  coords 8027.682 1.097 542.766
-  angles 0 -101.039 0
+  coords 8032.229 1.682 546.758
+  angles -0.003 -104.511 0
   m_bSnapToTerrain 0
   m_bPlayable 1
   m_bSetPlayable 1
  }
- {
+ SQ2 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
     "Projection distance" 1
    }
   }
-  coords 8031.966 1.097 544.868
-  angles 0 -99.811 0
+  coords 8036.716 1.701 547.473
+  angles -0 -104.962 0
+  m_bSnapToTerrain 0
+  m_bPlayable 1
+  m_bSetPlayable 1
+ }
+ SQ3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "line"
+    "Projection distance" 1
+   }
+  }
+  coords 8041.721 1.097 548.127
+  angles 15.051 -104.475 -1.162
+  m_aUnitPrefabSlots {
+   "{DC4E422BC996164F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_SL.et"
+   "{DB89B87AAF10AC8C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_TL.et"
+   "{3552758BEBD374F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_IAR.et"
+   "{BC13CD150CA5DD76}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_GL.et"
+   "{0EC2678E52CCF8B9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_LAT.et"
+   "{DB89B87AAF10AC8C}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_TL.et"
+   "{3552758BEBD374F4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_IAR.et"
+   "{BC13CD150CA5DD76}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_GL.et"
+   "{0EC2678E52CCF8B9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_LAT.et"
+   "{8CBFED356393597F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_TL_DMR.et"
+   "{BC13CD150CA5DD76}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_GL.et"
+   "{5CE20CCD29DE76DB}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MAAW.et"
+   "{42D0F5438096A912}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2025/Marines/Woodland/Character_2025_USMC_MAAW_ASST.et"
+  }
   m_bSnapToTerrain 0
   m_bPlayable 1
   m_bSetPlayable 1
